@@ -30,17 +30,17 @@ The data used are the official data set as given in the resources folder on BitG
 
 All methods and techniques used have been thoroughly descibed in the notebook. The files were simply used to build a model with which the predictions were done. I also did some very simple feature engineering and data manipulation which include:
 
-1. Datetime extraction
+#### Datetime extraction
 * The month and year was extracted from both the Creation date and Last sale date.
 * The difference in days between the Last Sale date and the Creation date was also calculated.
 
-2. Variable Mapping
+#### Variable Mapping
 For the boolean data: Openrarity_enabled, has_website, has_medium, has_own_twitter and has_discord. I did a simple mapping of "1" for "True" and "0" for "False".
 
-3. Target Transformation
+#### Target Transformation
 I used a logarithmic transformation to handle the skewed nature of the target
 
-4. Creation of statistical features.
+#### Creation of statistical features.
 I created statistical features for 
 
 * Rarity score.
